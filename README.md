@@ -4,9 +4,9 @@
 
 ## The Story
 
-This project wasn't born from a desire to build a website. It was born from numbness. 
+This project was born from discomfort and numbness caused when I started wearing my Lacoste shoes and after a few hours of wearing then the the realisation hit why I buried them in the closet and used my puma shoes even though they were old and worn out. 
 
-I had two pairs of shoes. My **Puma Rider FV** (size 9) was an effortless daily driver—soft, forgiving, invisible on the foot. My **Lacoste L003 Neo Tech** (also size 9) was a different beast. Despite being a "tech" shoe, it created a progressive, suffocating compression across the midfoot that eventually numbed my toes.
+I had two pairs of shoes. My **Puma Rider FV** was an effortless daily driver—soft, forgiving, invisible on the foot. My **Lacoste L003 Neo Tech** was a different beast. Despite being a "tech" shoe, it created a progressive, suffocating compression across the midfoot that eventually numbed my toes.
 
 Most advice I found was generic: "Break them in," "size up," or "maybe you have wide feet." none of it explained the *physics* of what was happening.
 
@@ -36,23 +36,3 @@ Built for immersion and performance:
 - **Micro-Interactions**: [Framer Motion](https://www.framer.com/motion/) for "Cash.app-style" subtlety.
 - **Data Visualization**: [D3.js](https://d3js.org/) for biomechanical heatmaps.
 - **Layout**: Full-screen "Reuters-style" overlays.
-
-## Getting Started
-
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/shoe-fit-biomechanics.git
-    cd shoe-fit-biomechanics
-    ```
-
-2.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
-
-3.  **Run the development server**:
-    ```bash
-    npm run dev
-    ```
-
-4.  Open [http://localhost:3000](http://localhost:3000) to see the mechanics unfold.

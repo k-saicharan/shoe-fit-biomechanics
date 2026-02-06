@@ -157,7 +157,7 @@ export default function NarrativePage() {
                         >
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
-                                src="/assets/gait-cycle.jpg"
+                                src="/shoe-fit-biomechanics/assets/gait-cycle.jpg"
                                 alt="Gait cycle biomechanics: Heel Strike, Midstance, Toe-Off"
                                 className="w-full rounded-2xl mb-6"
                             />
@@ -207,7 +207,7 @@ export default function NarrativePage() {
                         >
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
-                                src="/assets/midsole-materials.png"
+                                src="/shoe-fit-biomechanics/assets/midsole-materials.png"
                                 alt="EVA, TPU, and PEBA foam comparison"
                                 className="w-full rounded-2xl shadow-2xl"
                             />
@@ -297,7 +297,7 @@ export default function NarrativePage() {
                                 <div className="absolute -inset-1 bg-gradient-to-r from-green-500/20 to-cyan-500/20 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                                 <div className="relative bg-[#0B1221] rounded-2xl p-2 ring-1 ring-white/10">
                                     <img
-                                        src="/assets/foot-spring.jpg"
+                                        src="/shoe-fit-biomechanics/assets/foot-spring.jpg"
                                         alt="Foot spring mechanism biomechanics"
                                         className="w-full h-auto rounded-xl shadow-2xl"
                                     />
@@ -319,7 +319,7 @@ export default function NarrativePage() {
                                 <div className="absolute -inset-1 bg-gradient-to-r from-red-500/20 to-orange-500/20 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                                 <div className="relative bg-[#0B1221] rounded-2xl p-2 ring-1 ring-white/10">
                                     <img
-                                        src="/assets/dtml-ligaments.jpg"
+                                        src="/shoe-fit-biomechanics/assets/dtml-ligaments.jpg"
                                         alt="Deep Transverse Metatarsal Ligament strain"
                                         className="w-full h-auto rounded-xl shadow-2xl"
                                     />
@@ -417,7 +417,7 @@ export default function NarrativePage() {
                                 className="relative group bg-[#0B1221] rounded-2xl p-2 ring-1 ring-white/10"
                             >
                                 <img
-                                    src="/assets/toe-box-anatomy.jpg"
+                                    src="/shoe-fit-biomechanics/assets/toe-box-anatomy.jpg"
                                     alt="Metatarsal compression analysis"
                                     className="w-full h-auto rounded-xl shadow-2xl"
                                 />
@@ -436,7 +436,7 @@ export default function NarrativePage() {
                                 className="relative group bg-[#0B1221] rounded-2xl p-2 ring-1 ring-white/10"
                             >
                                 <img
-                                    src="/assets/breathability.jpg"
+                                    src="/shoe-fit-biomechanics/assets/breathability.jpg"
                                     alt="Vapor trapping analysis"
                                     className="w-full h-auto rounded-xl shadow-2xl"
                                 />
@@ -458,7 +458,7 @@ export default function NarrativePage() {
                                 className="relative group bg-[#0B1221] rounded-2xl p-2 ring-1 ring-white/10"
                             >
                                 <img
-                                    src="/assets/heel-counter.jpg"
+                                    src="/shoe-fit-biomechanics/assets/heel-counter.jpg"
                                     alt="Heel counter stability analysis"
                                     className="w-full h-auto rounded-xl shadow-2xl"
                                 />
@@ -477,7 +477,7 @@ export default function NarrativePage() {
                                 className="relative group bg-[#0B1221] rounded-2xl p-2 ring-1 ring-white/10"
                             >
                                 <img
-                                    src="/assets/insole-curvature.jpg"
+                                    src="/shoe-fit-biomechanics/assets/insole-curvature.jpg"
                                     alt="Insole contact area analysis"
                                     className="w-full h-auto rounded-xl shadow-2xl"
                                 />
@@ -655,7 +655,7 @@ export default function NarrativePage() {
                             >
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
-                                    src="/assets/tongue-mechanics.jpg"
+                                    src="/shoe-fit-biomechanics/assets/tongue-mechanics.jpg"
                                     alt="Tongue mechanics comparison"
                                     className="w-full h-64 object-contain rounded-xl mb-4 bg-black/20"
                                 />

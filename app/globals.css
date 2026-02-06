@@ -1,26 +1,106 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  /* Lusion-Inspired Palette */
+  --background: #e8e4f0;
+  --background-dark: #1a1a2e;
+  --foreground: #1a1a2e;
+  --foreground-light: #ffffff;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Card System (Glassmorphism) */
+  --card-bg: rgba(255, 255, 255, 0.85);
+  --card-border: rgba(255, 255, 255, 0.4);
+  --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Accent Colors */
+  --accent-blue: #2D23FF;
+  --bio-blue: #3b82f6;
+  --pressure-red: #ef4444;
+
+  /* Typography */
+  --font-display: var(--font-sans), -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  font-family: var(--font-display);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Premium Card Styles */
+@layer components {
+  .glass-card {
+    background: var(--card-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--card-border);
+    border-radius: 24px;
+    box-shadow: var(--card-shadow);
+  }
+
+  .section-dark {
+    background: var(--background-dark);
+    color: var(--foreground-light);
+  }
+
+  /* Giant Display Typography */
+  .display-heading {
+    font-size: clamp(3rem, 12vw, 10rem);
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+  }
+
+  .display-subheading {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+
+  /* Annotation Line */
+  .annotation-line {
+    stroke: var(--accent-blue);
+    stroke-width: 1;
+    fill: none;
+  }
+
+  .annotation-dot {
+    fill: var(--accent-blue);
+  }
+
+  .annotation-label {
+    font-size: 10px;
+    font-family: ui-monospace, monospace;
+    fill: var(--accent-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(45, 35, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(45, 35, 255, 0.5);
 }

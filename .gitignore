@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+dist/
+backup_v1/
+proj img/
+ref/
+research.md
+*.local
